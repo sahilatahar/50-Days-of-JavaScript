@@ -1,6 +1,6 @@
 # 50 Days of JavaScript by Codedamn
 
-Here is my solutions for 50 days of JavaScript challenges
+Here is solutions of 50 days of JavaScript challenges
 
 ### Day 1: 🎲Random Number Generator in Range
 
