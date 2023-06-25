@@ -237,3 +237,12 @@ Mnemonics map the colors to the numbers, that, when stored as an array, happen t
 Although the color names are capitalized in the description, the function colorCode will always be called with the lowercase equivalent, e.g brown instead of Brown.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day19_colorCode.js)
+
+## Day 20: Add Two Numbers
+
+Just add two numbers.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day20_addTwoNumbers.js)
+
+
+
