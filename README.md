@@ -249,3 +249,15 @@ Just add two numbers.
 Write the code for the function which returns the the union of the two given arrays.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day21_unionOfArrays.js)
+
+## Day 22: 🌟 Unique In Order
+
+Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+
+The argument can contain a string or an array
+
+For example: `uniqueInOrder([1,2,2,3,3])` should return `[1,2,3]`
+
+`uniqueInOrder('ABBCcAD')` should return `['A', 'B', 'C', 'c', 'A', 'D']`
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day22_uniqueInOrder.js)
