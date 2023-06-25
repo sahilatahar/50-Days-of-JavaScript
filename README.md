@@ -244,5 +244,8 @@ Just add two numbers.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day20_addTwoNumbers.js)
 
+## Day 21: 🤝🏻 Union of Two Arrays
 
+Write the code for the function which returns the the union of the two given arrays.
 
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day21_unionOfArrays.js)
