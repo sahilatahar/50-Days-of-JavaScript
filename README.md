@@ -2,73 +2,73 @@
 
 Here is solutions of 50 days of JavaScript challenges
 
-### Day 1: 🎲Random Number Generator in Range
+## Day 1: 🎲Random Number Generator in Range
 
 Create a function which returns a random number in the given range of values both inclusive
 
 [<span style="color:blue; font-weight:bold"><span style="color:blue; font-weight:bold">💡 See Solution</span></span>](./day1_randomNumberGeneratorInRange.js)
 
-### Day 2: ↩️ Reverse a String
+## Day 2: ↩️ Reverse a String
 
 Write a program to reverse a string. String can be reversed by iterating it and storing it in reverse order. String can also be reversed by converting it to array, then joining it after reversing
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day2_reverseAString.js)
 
-### Day 3: ↩️ Reverse a Given Integer Number
+## Day 3: ↩️ Reverse a Given Integer Number
 
 Write a program to reverse a given integer number. The remainder of the number can be fetched and the number can be divided by 10 to remove the the digit in loop till number becomes 0. A simple approach to reverse a number could also be to convert it in to a string and then reverse it.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day3_reverseGivenInteger.js)
 
-### Day 4: Convert ⏰ Time Format From 12Hrs to 24Hrs
+## Day 4: Convert ⏰ Time Format From 12Hrs to 24Hrs
 
 Write a function which can convert the time input given in 12 hours format to 24 hours format. The check for `AM` and `PM` can be verified using endsWith String method. An extra 0 would be needed if the hours have single digit.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day4_convertTo24HrsFormat.js)
 
-### Day 5: 🔢 Count Characters Between `X`
+## Day 5: 🔢 Count Characters Between `X`
 
 Write a function which accepts a string argument and returns the count of characters between the first and last character `X`. indexOf and lastIndexOf are the methods on String which returns the position of the given string in the input string from start and end respectively. If the match is not found, these methods return -1.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day5_getTheGapX.js)
 
-### Day 6: ✂️ Truncate String Words
+## Day 6: ✂️ Truncate String Words
 
 Write a function to truncate a string to a certain number of words. Truncate a string to a certain number of words.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day6_truncateWithWordLimit.js)
 
-### Day 7: Validate Indian 📱 Mobile Number
+## Day 7: Validate Indian 📱 Mobile Number
 
 Create a regular expression to validate if the given input is valid Indian mobile number or not. Regular expression check has to have an optional `+ 91` or `0` in the beginning, then an optional space and 10 digits. test method of regular expression can be used to validate if the mobile number pattern matches or not.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day7_validateMobile.js)
 
-### Day 8: Days Difference Between Two 📆 Dates
+## Day 8: Days Difference Between Two 📆 Dates
 
 Write a function which accepts two valid dates and returns the difference between them as number of days. The difference between 2 dates in JavaScript will give the time difference in milliseconds. Time difference can be converted in to days by dividing the 24Hrs time in milliseconds.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day8_getDaysBetweenDates.js)
 
-### Day 9: Check 🗑️ Empty Object
+## Day 9: Check 🗑️ Empty Object
 
 Write a function to check if an object is empty or not?
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day9_isObjEmpty.js)
 
-### Day 10: ❌ Remove Array Element...
+## Day 10: ❌ Remove Array Element...
 
 Write a function to remove array element based on object property ?
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day10_removeArrayElement.js)
 
-### Day 11: 🧮 Nth Value of fibonacci Series
+## Day 11: 🧮 Nth Value of fibonacci Series
 
 Write a function to return the N-th value of the Fibonacci sequence
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day11_fibonacci.js)
 
-### Day 12: 🔄 Convert Number to English
+## Day 12: 🔄 Convert Number to English
 
 Given a number from `0` to `999,999,999,999` spell out that number in English.
 
@@ -93,7 +93,7 @@ The program must also report any values that are out of range.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day12_sayNumberInEnglish.js)
 
-### Day 13: Calculate Age on 🌍 Planets
+## Day 13: Calculate Age on 🌍 Planets
 
 Convert given seconds to space age on all planets of our solar system
 Instructions
@@ -118,7 +118,7 @@ THE VALUE OF EACH PROPERTY SHOULD BE A NUMBER( AND SHOULD HAVE MAXIMUM 2 DIGITS 
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day13_spaceAge.js)
 
-### Day 14: 🔄 Convert Digits Array Base
+## Day 14: 🔄 Convert Digits Array Base
 
 Convert given array of `digits` of a base to another asked base
 
@@ -139,7 +139,7 @@ Note
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day14_convertDigitsToAskedBase.js)
 
-### Day 15: Check Pangram Sentence
+## Day 15: ✅ Check Pangram Sentence
 
 Determine if a sentence is a pangram
 
@@ -153,3 +153,15 @@ The alphabet used consists of ASCII letters a to z, inclusive, and is case insen
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day15_isPangram.js)
 
+## Day 16: 🙋‍♂️ Ask The Bob
+
+**Instructions**
+Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+Bob answers 'Sure.' if you ask him a question, such as "How are you?".
+He answers 'Whoa, chill out!' if you YELL AT HIM (in all capitals).
+He answers 'Calm down, I know what I'm doing!' if you yell a question at him.
+He says 'Fine. Be that way!' if you address him without actually saying anything.
+He answers 'Whatever.' to anything else.
+Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day16_askTheBob.js)
