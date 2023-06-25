@@ -138,3 +138,18 @@ Note
 [3, 1, 0] is WRONG because even though 1 and 0 are valid digits of base 16 it can be represented as 10 without taking the 3rd place.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day14_convertDigitsToAskedBase.js)
+
+### Day 15: Check Pangram Sentence
+
+Determine if a sentence is a pangram
+
+**Instructions**
+
+Determine if a sentence is a pangram. A pangram (Greek: παν γράμμα, pan gramma, "every letter") is a sentence using every letter of the alphabet at least once. The best known English pangram is:
+
+The quick brown fox jumps over the lazy dog.
+
+The alphabet used consists of ASCII letters a to z, inclusive, and is case insensitive. Input will not contain non-ASCII symbols.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day15_isPangram.js)
+
