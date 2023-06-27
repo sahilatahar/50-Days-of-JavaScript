@@ -280,7 +280,7 @@ Let's say you are given the array `[1,2,3,4,3,2,1]`: Your function will return t
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day23_findEvenIndex.js)
 
-## Day 24: Write Number in Expanded Form
+## Day 24: Write Number in 📜 Expanded Form
 
 You will be given a number and you will need to return it as a string in Expanded Form.
 
@@ -292,3 +292,12 @@ expandedForm(42); // Should return '40+2'
 ```
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day24_expandedForm.js)
+
+## Day 25: Stop 🌀 gninnipS My sdroW!
+
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+Examples:
+`spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"`.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day25_spinWords.js)
