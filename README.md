@@ -279,3 +279,16 @@ Let's say you are given the array `[1,2,3,4,3,2,1]`: Your function will return t
 **Note**: If you are given an array with multiple answers, return the lowest correct index.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day23_findEvenIndex.js)
+
+## Day 24: Write Number in Expanded Form
+
+You will be given a number and you will need to return it as a string in Expanded Form.
+
+For example:
+
+```bash
+expandedForm(12); // Should return '10+2'
+expandedForm(42); // Should return '40+2'
+```
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day24_expandedForm.js)
