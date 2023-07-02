@@ -360,7 +360,7 @@ To create a function that turns a string into a Mexican Wave. You will be passed
 **Example**
 `wave("hello")` returns the array `["Hello", "hEllo", "heLlo", "helLo", "hellO"]`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day29_wave.js)
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day30_wave.js)
 
 
 ## Day 31: Factorial of a Number❗
@@ -376,7 +376,14 @@ factorial of n `(n!) = 1 * 2 * 3 * 4.....n` The factorial of negative numbers do
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day31_factorial.js)
 
-## Day 32: 🌟 Unique values from an array
+## Day 32: GCD of Two Positive Number
+
+Write a program to find the greatest common divisor (gcd) of two positive numbers.
+The greatest common divisor (GCD), also called the greatest common factor, of two numbers is the largest number that divides them both. For instance, the greatest common factor of 20 and 15 is 5, since 5 divides both 20 and 15 and no larger number has this property.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day32_gcd.js)
+
+## Day 33: 🌟 Unique values from an array
 
 **Input**
 `const arrOfNum = [1, 2, 2, 4, 5, 6, 6]`
@@ -384,4 +391,4 @@ factorial of n `(n!) = 1 * 2 * 3 * 4.....n` The factorial of negative numbers do
 **Output**
 `[1, 2, 4, 5, 6]`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day32_uniqueValues.js)
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day33_uniqueValues.js)
