@@ -392,3 +392,13 @@ The greatest common divisor (GCD), also called the greatest common factor, of tw
 `[1, 2, 4, 5, 6]`
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day33_uniqueValues.js)
+
+## Day 34: 🔁 Most frequent item of an array
+
+**Input**
+`const arr = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];`
+
+**Output**
+`a 5`
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day34_mostFreq.js)
