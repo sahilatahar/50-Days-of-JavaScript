@@ -311,3 +311,13 @@ There will always be only one integer that appears an odd number of times.
 Examples `[7]` should return 7, because it occurs 1 time (which is odd). `[0]` should return 0, because it occurs 1 time (which is odd). `[1,1,2]` should return 2, because it occurs 1 time (which is odd). `[0,1,0,1,0]` should return 0, because it occurs 3 times (which is odd). `[1,2,2,3,3,3,4,3,3,3,2,2,1]` should return 4, because it appears 1 time (which is odd).
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day26_findOdd.js)
+
+## Day 27: Vowel 🔢 Count
+
+Return the number (count) of vowels in the given string.
+
+We will consider `a, e, i, o, u` as vowels.
+
+The input can consist of Lower case and upper case letters so make sure to count both of them.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day27_getVowelCount.js)
