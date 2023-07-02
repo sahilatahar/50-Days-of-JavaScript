@@ -2,7 +2,7 @@
 
 Here is solutions of 50 days of JavaScript challenges
 
-## Day 1: 🎲Random Number Generator in Range
+## Day 1: 🎲 Random Number Generator in Range
 
 Create a function which returns a random number in the given range of values both inclusive
 
@@ -413,4 +413,4 @@ Write a JavaScript function to get nth largest element from an unsorted array.
 **Output**
 `89`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day35_nthLargest.js)
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day35_nthlargest.js)
