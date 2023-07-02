@@ -494,7 +494,7 @@ Sum the digits
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day38_luhn_algo.js)
 
-## Day 39: Mixed Juices
+## Day 39: Mixed 🥤 Juices
 
 **Instructions**
 Your friend Li Mei runs her own juice bar where she sells delicious mixed fruit juices. You are a frequent customer in her shop and realized you could make your friend's life easier. You decide to use your coding skills to help Li Mei with her job.
@@ -504,9 +504,11 @@ Li Mei likes to tell her customers in advance how long they have to wait for a j
 
 To help your friend, write a function timeToMixJuice that takes a juice from the menu as an argument and returns the number of minutes it take to mix that drink.
 
-`timeToMixJuice('Tropical Island'); // => 3
+```javascript
+timeToMixJuice('Tropical Island'); // => 3
 
-timeToMixJuice('Berries & Lime'); // => 2.5`
+timeToMixJuice('Berries & Lime'); // => 2.5
+```
 
 2. Replenish the lime wedge supply
 A lot of Li Mei's creations include lime wedges, either as an ingredient or as part of the decoration. So when she starts her shift in the morning she needs to make sure the bin of lime wedges is full for the day ahead.
@@ -515,7 +517,9 @@ Implement the function limesToCut which takes the number of lime wedges Li Mei n
 
 Li Mei would like to know in advance how many limes she needs to cut. The limesToCut function should return the number of limes to cut.
 
+```javascript
 limesToCut(25, ['small', 'small', 'large', 'medium', 'small']); // => 4
+```
 
 3. Finish up the shift
 Li Mei always works until 3pm. Then her employee Dmitry takes over. There are often drinks that have been ordered but are not prepared yet when Li Mei's shift ends. Dmitry will then prepare the remaining juices.
@@ -524,6 +528,8 @@ To make the hand-over easier, implement a function remainingOrders which takes t
 
 The time left in the shift will always be greater than 0. Furthermore the orders are prepared in the order in which they appear in the array. If Li Mei starts to mix a certain juice, she will always finish it even if she has to work a bit longer. If there are no remaining orders left that Dmitry needs to take care of, an empty array should be returned.
 
+```javascript
 remainingOrders(5, ['Energizer', 'All or Nothing', 'Green Garden']); // => ['Green Garden']
+```
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day39_mixedJuices.js)
