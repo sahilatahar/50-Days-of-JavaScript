@@ -1,6 +1,9 @@
 # 50 Days of JavaScript by Codedamn
 
-Here is solutions of 50 days of JavaScript challenges
+Solutions of 50 days of JavaScript by [Codedamn](https://codedamn.com/50-days-of-js)
+
+![50-days-of-js](https://github.com/sahilatahar/50-Days-of-JavaScript/assets/100127570/831d51d8-3846-4810-9211-9caf6193d52c)
+
 
 ## Day 1: 🎲 Random Number Generator in Range
 
