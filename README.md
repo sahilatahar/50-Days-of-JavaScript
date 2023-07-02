@@ -375,3 +375,13 @@ The factorial of a positive number n is given by:
 factorial of n `(n!) = 1 * 2 * 3 * 4.....n` The factorial of negative numbers do not exist and the factorial of 0 is 1.
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day31_factorial.js)
+
+## Day 32: 🌟 Unique values from an array
+
+**Input**
+`const arrOfNum = [1, 2, 2, 4, 5, 6, 6]`
+
+**Output**
+`[1, 2, 4, 5, 6]`
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day32_uniqueValues.js)
