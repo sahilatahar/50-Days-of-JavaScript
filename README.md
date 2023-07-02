@@ -9,67 +9,67 @@ Solutions of 50 days of JavaScript by [Codedamn](https://codedamn.com/50-days-of
 
 Create a function which returns a random number in the given range of values both inclusive
 
-[<span style="color:blue; font-weight:bold"><span style="color:blue; font-weight:bold">💡 See Solution</span></span>](./day1_randomNumberGeneratorInRange.js)
+[💡 See Solution](./Day-01/randomNumberGeneratorInRange.js)
 
 ## Day 2: ↩️ Reverse a String
 
 Write a program to reverse a string. String can be reversed by iterating it and storing it in reverse order. String can also be reversed by converting it to array, then joining it after reversing
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day2_reverseAString.js)
+[💡 See Solution](./Day-02/reverseAString.js)
 
 ## Day 3: ↩️ Reverse a Given Integer Number
 
 Write a program to reverse a given integer number. The remainder of the number can be fetched and the number can be divided by 10 to remove the the digit in loop till number becomes 0. A simple approach to reverse a number could also be to convert it in to a string and then reverse it.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day3_reverseGivenInteger.js)
+[💡 See Solution](./Day-03/reverseGivenInteger.js)
 
 ## Day 4: Convert ⏰ Time Format From 12Hrs to 24Hrs
 
 Write a function which can convert the time input given in 12 hours format to 24 hours format. The check for `AM` and `PM` can be verified using endsWith String method. An extra 0 would be needed if the hours have single digit.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day4_convertTo24HrsFormat.js)
+[💡 See Solution](./Day-04/convertTo24HrsFormat.js)
 
 ## Day 5: 🔢 Count Characters Between `X`
 
 Write a function which accepts a string argument and returns the count of characters between the first and last character `X`. indexOf and lastIndexOf are the methods on String which returns the position of the given string in the input string from start and end respectively. If the match is not found, these methods return -1.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day5_getTheGapX.js)
+[💡 See Solution](./Day-05/getTheGapX.js)
 
 ## Day 6: ✂️ Truncate String Words
 
 Write a function to truncate a string to a certain number of words. Truncate a string to a certain number of words.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day6_truncateWithWordLimit.js)
+[💡 See Solution](./Day-06/truncateWithWordLimit.js)
 
 ## Day 7: Validate Indian 📱 Mobile Number
 
 Create a regular expression to validate if the given input is valid Indian mobile number or not. Regular expression check has to have an optional `+ 91` or `0` in the beginning, then an optional space and 10 digits. test method of regular expression can be used to validate if the mobile number pattern matches or not.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day7_validateMobile.js)
+[💡 See Solution](./Day-07/validateMobile.js)
 
 ## Day 8: Days Difference Between Two 📆 Dates
 
 Write a function which accepts two valid dates and returns the difference between them as number of days. The difference between 2 dates in JavaScript will give the time difference in milliseconds. Time difference can be converted in to days by dividing the 24Hrs time in milliseconds.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day8_getDaysBetweenDates.js)
+[💡 See Solution](./Day-08/getDaysBetweenDates.js)
 
 ## Day 9: Check 🗑️ Empty Object
 
 Write a function to check if an object is empty or not?
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day9_isObjEmpty.js)
+[💡 See Solution](./Day-09/isObjEmpty.js)
 
 ## Day 10: ❌ Remove Array Element...
 
 Write a function to remove array element based on object property ?
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day10_removeArrayElement.js)
+[💡 See Solution](./Day-10/removeArrayElement.js)
 
 ## Day 11: 🧮 Nth Value of fibonacci Series
 
 Write a function to return the N-th value of the Fibonacci sequence
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day11_fibonacci.js)
+[💡 See Solution](./Day-11/fibonacci.js)
 
 ## Day 12: 🔄 Convert Number to English
 
@@ -94,7 +94,7 @@ Put it all together to get nothing but plain English.
 `12345` should give `twelve thousand three hundred forty-five`.
 The program must also report any values that are out of range.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day12_sayNumberInEnglish.js)
+[💡 See Solution](./Day-12/sayNumberInEnglish.js)
 
 ## Day 13: Calculate Age on 🌍 Planets
 
@@ -119,7 +119,7 @@ Your spaceAge function should return the (already given) yearsInAllPlanets objec
 
 THE VALUE OF EACH PROPERTY SHOULD BE A NUMBER( AND SHOULD HAVE MAXIMUM 2 DIGITS AFTER THE POINT) for example 4.34
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day13_spaceAge.js)
+[💡 See Solution](./Day-13/spaceAge.js)
 
 ## Day 14: 🔄 Convert Digits Array Base
 
@@ -140,7 +140,7 @@ Note
 
 [3, 1, 0] is WRONG because even though 1 and 0 are valid digits of base 16 it can be represented as 10 without taking the 3rd place.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day14_convertDigitsToAskedBase.js)
+[💡 See Solution](./Day-14/convertDigitsToAskedBase.js)
 
 ## Day 15: ✅ Check Pangram Sentence
 
@@ -154,7 +154,7 @@ The quick brown fox jumps over the lazy dog.
 
 The alphabet used consists of ASCII letters a to z, inclusive, and is case insensitive. Input will not contain non-ASCII symbols.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day15_isPangram.js)
+[💡 See Solution](./Day-15/isPangram.js)
 
 ## Day 16: 🙋‍♂️ Ask The Bob
 
@@ -167,7 +167,7 @@ He says 'Fine. Be that way!' if you address him without actually saying anything
 He answers 'Whatever.' to anything else.
 Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day16_askTheBob.js)
+[💡 See Solution](./Day-16/askTheBob.js)
 
 ## Day 17: 📜 Longest Consecutive Sequence
 
@@ -179,7 +179,7 @@ Output: 4 // LCS `[1, 2, 3, 4]`
 
 Conceptually this is how it should work. Copy all the elements of the array in a set. Iterate the array and in each iteration determine if the current element will lead to new subsequence by checking if there is no element less than the current, present in the set. Then find how long this subsequence can be by incrementing the count till there is consecutive elements in the set. In the end return the longest consecutive sequence.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day17_longestConsecutiveSequence.js)
+[💡 See Solution](./Day-17/longestConsecutiveSequence.js)
 
 ## Day 18: Calculate 🌾 Grains
 
@@ -202,7 +202,7 @@ NOTE
 - Answer should be a BigInt value
 - Both function is given to you separate and you should write code in both functions.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day18_calculateGrains.js)
+[💡 See Solution](./Day-18/calculateGrains.js)
 
 ## Day 19: Resistor 🎨 Color map
 
@@ -239,19 +239,19 @@ Mnemonics map the colors to the numbers, that, when stored as an array, happen t
 **NOTE**
 Although the color names are capitalized in the description, the function colorCode will always be called with the lowercase equivalent, e.g brown instead of Brown.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day19_colorCode.js)
+[💡 See Solution](./Day-19/colorCode.js)
 
 ## Day 20: Add Two Numbers
 
 Just add two numbers.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day20_addTwoNumbers.js)
+[💡 See Solution](./Day-20/addTwoNumbers.js)
 
 ## Day 21: 🤝🏻 Union of Two Arrays
 
 Write the code for the function which returns the the union of the two given arrays.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day21_unionOfArrays.js)
+[💡 See Solution](./Day-21/unionOfArrays.js)
 
 ## Day 22: 🌟 Unique In Order
 
@@ -263,7 +263,7 @@ For example: `uniqueInOrder([1,2,2,3,3])` should return `[1,2,3]`
 
 `uniqueInOrder('ABBCcAD')` should return `['A', 'B', 'C', 'c', 'A', 'D']`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day22_uniqueInOrder.js)
+[💡 See Solution](./Day-22/uniqueInOrder.js)
 
 ## Day 23: ⚖️ Equal Sides Of An Array
 
@@ -281,7 +281,7 @@ Let's say you are given the array `[1,2,3,4,3,2,1]`: Your function will return t
 
 **Note**: If you are given an array with multiple answers, return the lowest correct index.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day23_findEvenIndex.js)
+[💡 See Solution](./Day-23/findEvenIndex.js)
 
 ## Day 24: Write Number in 📜 Expanded Form
 
@@ -294,7 +294,7 @@ expandedForm(12); // Should return '10+2'
 expandedForm(42); // Should return '40+2'
 ```
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day24_expandedForm.js)
+[💡 See Solution](./Day-24/expandedForm.js)
 
 ## Day 25: Stop 🌀 gninnipS My sdroW!
 
@@ -303,7 +303,7 @@ Write a function that takes in a string of one or more words, and returns the sa
 Examples:
 `spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"`.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day25_spinWords.js)
+[💡 See Solution](./Day-25/spinWords.js)
 
 ## Day 26: 🔍 Find the odd int
 
@@ -313,7 +313,7 @@ There will always be only one integer that appears an odd number of times.
 
 Examples `[7]` should return 7, because it occurs 1 time (which is odd). `[0]` should return 0, because it occurs 1 time (which is odd). `[1,1,2]` should return 2, because it occurs 1 time (which is odd). `[0,1,0,1,0]` should return 0, because it occurs 3 times (which is odd). `[1,2,2,3,3,3,4,3,3,3,2,2,1]` should return 4, because it appears 1 time (which is odd).
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day26_findOdd.js)
+[💡 See Solution](./Day-26/findOdd.js)
 
 ## Day 27: Vowel 🔢 Count
 
@@ -323,7 +323,7 @@ We will consider `a, e, i, o, u` as vowels.
 
 The input can consist of Lower case and upper case letters so make sure to count both of them.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day27_getVowelCount.js)
+[💡 See Solution](./Day-27/getVowelCount.js)
 
 ## Day 28: 🙃 WeIrD StRiNg CaSe
 
@@ -331,7 +331,7 @@ Write a function `toWeirdCase` that accepts a string, and returns the same strin
 
 The passed in string will only consist of alphabetical characters and spaces(' '). Spaces will only be present if there are multiple words. Words will be separated by a single space(' ').
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day28_toWeirdCase.js)
+[💡 See Solution](./Day-28/toWeirdCase.js)
 
 ## Day 29: 🤐 Mumbling
 
@@ -341,7 +341,7 @@ Only alphabets are passed as arguments for the `accum(s)` funciton
 
 Example: `accum("ZpglnRxqenU")` should return `"Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day29_mumbling.js)
+[💡 See Solution](./Day-29/mumbling.js)
 
 ## Day 30: Mexican 🌊 Wave
 
@@ -363,7 +363,7 @@ To create a function that turns a string into a Mexican Wave. You will be passed
 **Example**
 `wave("hello")` returns the array `["Hello", "hEllo", "heLlo", "helLo", "hellO"]`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day30_wave.js)
+[💡 See Solution](./Day-30/wave.js)
 
 
 ## Day 31: Factorial of a Number❗
@@ -377,14 +377,14 @@ The factorial of a positive number n is given by:
 
 factorial of n `(n!) = 1 * 2 * 3 * 4.....n` The factorial of negative numbers do not exist and the factorial of 0 is 1.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day31_factorial.js)
+[💡 See Solution](./Day-31/factorial.js)
 
 ## Day 32: GCD of Two Positive Number
 
 Write a program to find the greatest common divisor (gcd) of two positive numbers.
 The greatest common divisor (GCD), also called the greatest common factor, of two numbers is the largest number that divides them both. For instance, the greatest common factor of 20 and 15 is 5, since 5 divides both 20 and 15 and no larger number has this property.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day32_gcd.js)
+[💡 See Solution](./Day-32/gcd.js)
 
 ## Day 33: 🌟 Unique values from an array
 
@@ -394,7 +394,7 @@ The greatest common divisor (GCD), also called the greatest common factor, of tw
 **Output**
 `[1, 2, 4, 5, 6]`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day33_uniqueValues.js)
+[💡 See Solution](./Day-33/uniqueValues.js)
 
 ## Day 34: 🔁 Most frequent item of an array
 
@@ -404,7 +404,7 @@ The greatest common divisor (GCD), also called the greatest common factor, of tw
 **Output**
 `a 5`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day34_mostFreq.js)
+[💡 See Solution](./Day-34/mostFreq.js)
 
 ## Day 35: Get nth 📏 largest element from an array
 
@@ -416,7 +416,7 @@ Write a JavaScript function to get nth largest element from an unsorted array.
 **Output**
 `89`
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day35_nthlargest.js)
+[💡 See Solution](./Day-35/nthlargest.js)
 
 ## Day 36: 🧬 RNA Transcription
 
@@ -434,7 +434,7 @@ Given a DNA strand, its transcribed RNA strand is formed by replacing each nucle
 + T → A
 + A → U
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day36_rnaTranscription.js)
+[💡 See Solution](./Day-36/rnaTranscription.js)
 
 ## Day 37: Leap 📆 Year
 
@@ -451,7 +451,7 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
 
 Notes Though our exercise adopts some very simple rules, there is more to learn!
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day37_leapYear.js)
+[💡 See Solution](./Day-37/leapYear.js)
 
 ## Day 38: Luhn algorithm
 
@@ -495,7 +495,7 @@ Sum the digits
 
 57 is not evenly divisible by 10, so this number is not valid.
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day38_luhn_algo.js)
+[💡 See Solution](./Day-38/luhn_algo.js)
 
 ## Day 39: Mixed 🥤 Juices
 
@@ -535,4 +535,4 @@ The time left in the shift will always be greater than 0. Furthermore the orders
 remainingOrders(5, ['Energizer', 'All or Nothing', 'Green Garden']); // => ['Green Garden']
 ```
 
-[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day39_mixedJuices.js)
+[💡 See Solution](./Day-39/mixedJuices.js)
