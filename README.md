@@ -361,3 +361,17 @@ To create a function that turns a string into a Mexican Wave. You will be passed
 `wave("hello")` returns the array `["Hello", "hEllo", "heLlo", "helLo", "hellO"]`
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day29_wave.js)
+
+
+## Day 31: Factorial of a Number❗
+
+Write a Program to Find the Factorial of a Number
+The factorial of a number is the product of all the numbers from 1 to that number. For example,
+
+factorial of 5 is equal to 1 * 2 * 3 * 4 * 5 = 120.
+
+The factorial of a positive number n is given by:
+
+factorial of n `(n!) = 1 * 2 * 3 * 4.....n` The factorial of negative numbers do not exist and the factorial of 0 is 1.
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day31_factorial.js)
