@@ -402,3 +402,15 @@ The greatest common divisor (GCD), also called the greatest common factor, of tw
 `a 5`
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day34_mostFreq.js)
+
+## Day 35: Get nth 📏 largest element from an array
+
+Write a JavaScript function to get nth largest element from an unsorted array.
+
+**Input**
+`nthlargest([ 43, 56, 23, 89, 88, 90, 99, 652], 4)`
+
+**Output**
+`89`
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day35_nthLargest.js)
