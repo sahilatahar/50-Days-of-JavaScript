@@ -330,7 +330,17 @@ The passed in string will only consist of alphabetical characters and spaces(' '
 
 [<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day28_toWeirdCase.js)
 
-## Day 29: Mexican 🌊 Wave
+## Day 29: 🤐 Mumbling
+
+Each char becomes `n*chars` where n is the index + 1, and the first char is capitalized divided by `-` instead of space.
+
+Only alphabets are passed as arguments for the `accum(s)` funciton
+
+Example: `accum("ZpglnRxqenU")` should return `"Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"`
+
+[<span style="color:blue; font-weight:bold">💡 See Solution</span>](./day29_mumbling.js)
+
+## Day 30: Mexican 🌊 Wave
 
 **Mexican Wave Origin**
 
@@ -344,8 +354,8 @@ To create a function that turns a string into a Mexican Wave. You will be passed
 
 **Rules**
 
-+ The input string will always be lower case but maybe empty.
-+ If the character in the string is whitespace then pass over it as if it was an empty seat
+- The input string will always be lower case but maybe empty.
+- If the character in the string is whitespace then pass over it as if it was an empty seat
 
 **Example**
 `wave("hello")` returns the array `["Hello", "hEllo", "heLlo", "helLo", "hellO"]`
