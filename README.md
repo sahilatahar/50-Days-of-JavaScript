@@ -699,3 +699,13 @@ A component will not appear at all if its value happens to be zero. Hence, `1 mi
 A unit of time must be used "as much as possible". It means that the function should not return `61 seconds`, but `1 minute and 1 second` instead. Formally, the duration specified by of a component must not be greater than any valid more significant unit of time.
 
 [💡 See Solution](./Day-48/formatDuration.js)
+
+## Day 49: Is this a triangle?
+
+Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+
+(In this case, all triangles must have surface greater than 0 to be accepted).
+
+Hint You can check whether the sum of the two sides of a triangle is greater than the third side in all possible combinations.
+
+[💡 See Solution](./Day-49/isTriangle.js)
