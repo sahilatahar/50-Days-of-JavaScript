@@ -643,3 +643,15 @@ Should return: 160 (the only even number)
 ```
 
 [💡 See Solution](./Day-45/findOutlier.js)
+
+## Day 46: A Needle in the Haystack
+
+Write a function `findNeedle()` that takes an array full of junk but containing one `"needle"`
+
+After your function finds the needle it should return a message (as a string) that says:
+
+`"found the needle at position "` plus the `index` it found the needle, so:
+
+`findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])` should return `"found the needle at position 5"`
+
+[💡 See Solution](./Day-46/findNeedle.js)
