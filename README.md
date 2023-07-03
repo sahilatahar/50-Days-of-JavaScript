@@ -601,3 +601,16 @@ Create a function that returns the sum of the two lowest positive numbers given 
 For example, when an array is passed like `[19, 5, 42, 2, 77]`, the output should be `7`.
 
 [💡 See Solution](./Day-42/sumTwoSmallestNumbers.js)
+
+## Day 43: Highest 🎯 Scoring Word
+
+Given a string of words, you need to find the highest scoring word.
+Each letter of a word scores points according to its position in the alphabet: `a = 1, b = 2, c = 3` etc.
+
+You need to return the highest scoring word as a string.
+
+If two words score the same, return the word that appears earliest in the original string.
+
+All letters will be lowercase and all inputs will be valid.
+
+[💡 See Solution](./Day-43/high.js)
