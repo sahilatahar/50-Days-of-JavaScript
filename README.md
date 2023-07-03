@@ -593,3 +593,11 @@ Output will consist of a list of string values stating whether the respective me
 `openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]) // returns ['Open', 'Senior', 'Open', 'Senior']`
 
 [💡 See Solution](./Day-41/categorize_member.js)
+
+## Day 42: Sum of two lowest positive integers
+
+Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+For example, when an array is passed like `[19, 5, 42, 2, 77]`, the output should be `7`.
+
+[💡 See Solution](./Day-42/sumTwoSmallestNumbers.js)
