@@ -4,6 +4,13 @@ Solutions of 50 days of JavaScript by [Codedamn](https://codedamn.com/50-days-of
 
 ![50-Days-of-js](https://github.com/sahilatahar/50-Days-of-JavaScript/assets/100127570/2594dffe-1ee2-4840-9315-dd371beb69ed)
 
+## Direct Navigation to Questions
+1. [Day 01 - Day 10](#day-1--random-number-generator-in-range)
+2. [Day 11 - Day 20](#day-11--nth-value-of-fibonacci-series)
+3. [Day 21 - Day 30](#day-21--union-of-two-arrays)
+4. [Day 31 - Day 40](#day-31-factorial-of-a-number)
+5. [Day 41 - Day 50](#day-41-%EF%B8%8F-categorize-new-member)
+
 ## Day 1: 🎲 Random Number Generator in Range
 
 Create a function which returns a random number in the given range of values both inclusive
