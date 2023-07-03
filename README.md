@@ -655,3 +655,17 @@ After your function finds the needle it should return a message (as a string) th
 `findNeedle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])` should return `"found the needle at position 5"`
 
 [💡 See Solution](./Day-46/findNeedle.js)
+
+## Day 47: Isograms
+
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+Example
+```bash
+"Dermatoglyphics" --> true
+"aba" --> false
+"moOse" --> false (ignore letter case)
+```
+**Note :** An empty string is also an isogram
+
+[💡 See Solution](./Day-47/isIsogram.js)
