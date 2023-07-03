@@ -709,3 +709,19 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 Hint You can check whether the sum of the two sides of a triangle is greater than the third side in all possible combinations.
 
 [💡 See Solution](./Day-49/isTriangle.js)
+
+## Day 50: Get the Middle Character
+
+You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+
+```bash
+getMiddle("test") should return "es"
+
+getMiddle("testing") should return "t"
+
+getMiddle("middle") should return "dd"
+
+getMiddle("A") should return "A"
+```
+
+[💡 See Solution](./Day-50/getMiddle.js)
