@@ -2,6 +2,12 @@
 
 Solutions of 50 days of JavaScript by [Codedamn](https://codedamn.com/50-days-of-js)
 
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)
+![MIT Licensed](https://img.shields.io/badge/license-MIT-blue)
+![GitHub forks](https://img.shields.io/github/forks/sahilatahar/50-Days-of-JavaScript)
+![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/50-Days-of-JavaScript)
+[![Contributors](https://img.shields.io/badge/Contributors-Welcome-teal)](LICENSE)
+
 ![50-Days-of-js](https://github.com/sahilatahar/50-Days-of-JavaScript/assets/100127570/2594dffe-1ee2-4840-9315-dd371beb69ed)
 
 ## Direct Navigation to Questions
@@ -732,3 +738,8 @@ getMiddle("A") should return "A"
 ```
 
 [💡 See Solution](./Day-50/getMiddle.js)
+
+
+# Contributing
+
+- [Contribution Guidelines](contribute.md)
