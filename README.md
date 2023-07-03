@@ -6,7 +6,7 @@ Solutions of 50 days of JavaScript by [Codedamn](https://codedamn.com/50-days-of
 ![MIT Licensed](https://img.shields.io/badge/license-MIT-blue)
 ![GitHub forks](https://img.shields.io/github/forks/sahilatahar/50-Days-of-JavaScript)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/50-Days-of-JavaScript)
-[![Contributors](https://img.shields.io/badge/Contributors-Welcome-teal)](LICENSE)
+[![Contributors](https://img.shields.io/badge/Contributors-Welcome-teal)](contribute.md)
 
 ![50-Days-of-js](https://github.com/sahilatahar/50-Days-of-JavaScript/assets/100127570/2594dffe-1ee2-4840-9315-dd371beb69ed)
 
