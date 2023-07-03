@@ -614,3 +614,17 @@ If two words score the same, return the word that appears earliest in the origin
 All letters will be lowercase and all inputs will be valid.
 
 [💡 See Solution](./Day-43/high.js)
+
+## Day 44: Count the ➗ divisors of a number
+
+Count the number of divisors of a positive integer n.
+
+Examples (input and output)
+```bash
+4 --> 3 (1, 2, 4)
+5 --> 2 (1, 5)
+12 --> 6 (1, 2, 3, 4, 6, 12)
+30 --> 8 (1, 2, 3, 5, 6, 10, 15, 30)
+```
+
+[💡 See Solution](./Day-44/getDivisorsCnt.js)
